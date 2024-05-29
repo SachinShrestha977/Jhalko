@@ -1,0 +1,166 @@
+<template>
+  <div class="bg-sky-50">
+    <!-- Top Header -->
+    <div class="flex justify-between">
+      <img
+        src="../../assets/logo.png"
+        alt=""
+        class="bg-white mx-40 h-36 w-32 shadow-2xl"
+      />
+      <div class="flex flex-col">
+        <div class="flex space-x-1 items-center pt-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0"
+            y="0"
+            viewBox="0 0 401.998 401.998"
+            style="enable-background: new 0 0 512 512"
+            xml:space="preserve"
+            class="h-4 w-4"
+          >
+            <g>
+              <path
+                d="M401.129 311.475c-1.137-3.426-8.371-8.473-21.697-15.129-3.61-2.098-8.754-4.949-15.41-8.566a1437.412 1437.412 0 0 1-18.13-9.996 605.612 605.612 0 0 1-15.276-8.846c-.76-.571-3.139-2.234-7.136-5-4.001-2.758-7.375-4.805-10.14-6.14-2.759-1.327-5.473-1.995-8.138-1.995-3.806 0-8.56 2.714-14.268 8.135a139.01 139.01 0 0 0-15.7 17.706c-4.757 6.379-9.802 12.275-15.126 17.7-5.332 5.427-9.713 8.138-13.135 8.138-1.718 0-3.86-.479-6.427-1.424-2.566-.951-4.518-1.766-5.858-2.423-1.328-.671-3.607-1.999-6.845-4.004-3.244-1.999-5.048-3.094-5.428-3.285-26.075-14.469-48.438-31.029-67.093-49.676-18.649-18.658-35.211-41.019-49.676-67.097-.19-.381-1.287-2.19-3.284-5.424-2-3.237-3.333-5.518-3.999-6.854-.666-1.331-1.475-3.283-2.425-5.852s-1.427-4.709-1.427-6.424c0-3.424 2.713-7.804 8.138-13.134 5.424-5.327 11.326-10.373 17.7-15.128a138.95 138.95 0 0 0 17.701-15.699c5.424-5.711 8.136-10.467 8.136-14.273 0-2.663-.666-5.378-1.997-8.137-1.332-2.765-3.378-6.139-6.139-10.138-2.762-3.997-4.427-6.374-4.999-7.139a627.13 627.13 0 0 1-8.848-15.271 1441.4 1441.4 0 0 1-9.995-18.131c-3.615-6.658-6.468-11.799-8.564-15.415C98.986 9.233 93.943 1.997 90.516.859 89.183.288 87.183 0 84.521 0c-5.142 0-11.85.95-20.129 2.856-8.282 1.903-14.799 3.899-19.558 5.996-9.517 3.995-19.604 15.605-30.264 34.826C4.863 61.566.01 79.271.01 96.78c0 5.135.333 10.131.999 14.989.666 4.853 1.856 10.326 3.571 16.418 1.712 6.09 3.093 10.614 4.137 13.56 1.045 2.948 2.996 8.229 5.852 15.845 2.852 7.614 4.567 12.275 5.138 13.988 6.661 18.654 14.56 35.307 23.695 49.964 15.03 24.362 35.541 49.539 61.521 75.521 25.981 25.98 51.153 46.49 75.517 61.526 14.655 9.134 31.314 17.032 49.965 23.698 1.714.568 6.375 2.279 13.986 5.141 7.614 2.854 12.897 4.805 15.845 5.852 2.949 1.048 7.474 2.43 13.559 4.145 6.098 1.715 11.566 2.905 16.419 3.576 4.856.657 9.853.996 14.989.996 17.508 0 35.214-4.856 53.105-14.562 19.219-10.656 30.826-20.745 34.823-30.269 2.102-4.754 4.093-11.273 5.996-19.555 1.909-8.278 2.857-14.985 2.857-20.126.006-2.673-.281-4.668-.855-6.012z"
+                fill="#000000"
+                opacity="1"
+                data-original="#000000"
+              ></path>
+            </g>
+          </svg>
+          <p class="text-gray-800 text-lg pr-48">(+977) 9803896379</p>
+        </div>
+        <div class="flex justify-end pr-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0"
+            y="0"
+            viewBox="0 0 511.664 511.664"
+            style="enable-background: new 0 0 512 512"
+            xml:space="preserve"
+            class="h-12 w-12"
+          >
+            <rect
+              width="511.664"
+              height="511.664"
+              rx="102.33279999999999"
+              ry="102.33279999999999"
+              fill="#f37125"
+              shape="rounded"
+            ></rect>
+            <g
+              transform="matrix(0.7,0,0,0.7,76.74962310791017,76.74960136413574)"
+            >
+              <path
+                d="M508.55 98.95a15.003 15.003 0 0 0-11.886-5.85H144.099l-16.315-56.543a15 15 0 0 0-14.412-10.842H15c-8.284 0-15 6.716-15 15s6.716 15 15 15h87.088l68.348 253.919a74.453 74.453 0 0 1 26.847-4.998h255.458c2.475 0 4.901.209 7.268.595l51.156-193.295a14.997 14.997 0 0 0-2.615-12.986zM433.072 394.516H197.284c-8.192 0-14.857-6.665-14.857-14.857s6.665-14.857 14.857-14.857h255.458c8.284 0 15-6.716 15-15s-6.716-15-15-15H197.284c-24.734 0-44.857 20.123-44.857 44.857 0 11.133 4.086 21.324 10.825 29.174-7.763 8.197-12.539 19.249-12.539 31.402 0 25.207 20.507 45.714 45.714 45.714 25.206 0 45.714-20.507 45.714-45.714a45.5 45.5 0 0 0-2.785-15.719h150.786a45.499 45.499 0 0 0-2.783 15.714c0 25.206 20.507 45.714 45.714 45.714s45.714-20.507 45.714-45.714c-.001-25.207-20.508-45.714-45.715-45.714z"
+                fill="#ffffff"
+                opacity="1"
+                data-original="#000000"
+                class=""
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner Part -->
+    <div class="flex w-full space-x-2 pl-40 mt-8">
+      <div class="w-1/2 px-4 py-4">
+        <p class="font-bold text-3xl">
+          QUALITY PHOTOS PRINTED, FRAMED & DELIVERED.
+        </p>
+        <p class="font-bold text-3xl mt-8">
+          गुणस्तरीय फोटो फ्रेमहरु घरमै पाउनुहोस्।
+        </p>
+
+        <div class="mt-8">
+          <button
+            @click="openFileDialog"
+            class="px-4 py-2 font-semibold text-white text-sm bg-[#f37125] rounded hover:bg-orange-600 uppercase"
+          >
+            Upload Photos
+          </button>
+
+          <!-- Hidden file input -->
+          <input
+            type="file"
+            ref="fileInput"
+            @change="handleFileChange"
+            accept="image/*"
+            class="hidden"
+          />
+        </div>
+      </div>
+      <div class="relative w-1/2 hover:cursor-pointer" @click="openImageDialog">
+        <input
+          type="file"
+          ref="imageInput"
+          @change="handleImageChange"
+          accept="image/*"
+          class="hidden"
+        />
+        <img
+          src="../../assets/golden-frame.png"
+          alt="Decorative Frame"
+          class="w-[600px]"
+        />
+        <div
+          class="absolute top-0 -left-10 w-full h-full flex flex-col items-center justify-center"
+        >
+          <p class="text-center text-black text-xl">
+            Drag and drop your photographs here
+          </p>
+          <p class="text-center text-black text-sm">
+            Please use jpeg/jpg formats.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+import { toast } from "vue3-toastify";
+import "vue3-toastify/dist/index.css";
+export default {
+  name: "Home",
+  data() {
+    return {};
+  },
+  methods: {
+    openFileDialog() {
+      this.$refs.fileInput.click();
+    },
+    openImageDialog() {
+      this.$refs.imageInput.click();
+    },
+    handleFileChange(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const fileExtension = file.name.split(".").pop().toLowerCase();
+        if (fileExtension === "jpeg" || fileExtension === "jpg") {
+          // Handle the selected file (e.g., upload it or display a preview)
+          console.log("Selected file:", file);
+        } else {
+          toast.error("Please upload a file in JPEG or JPG format.");
+        }
+      }
+    },
+    handleImageChange(event) {
+      const image = event.target.files[0];
+      if (image) {
+        const fileExtension = image.name.split(".").pop().toLowerCase();
+        if (fileExtension === "jpeg" || fileExtension === "jpg") {
+          // Handle the selected file (e.g., upload it or display a preview)
+          console.log("Selected file:", file);
+        } else {
+          toast.error("Please upload a file in JPEG or JPG format.");
+        }
+      }
+    },
+  },
+};
+</script>
