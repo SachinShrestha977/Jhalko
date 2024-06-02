@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-red-500 bg-star-animation">
-    <div class="mx-40 flex items-center">
-      <div class="w-1/2 p-5">
+  <div class="bg-red-500 bg-star-animation pb-8">
+    <div class="md:mx-40 flex md:flex-row flex-col items-center">
+      <div class="md:w-1/2 p-5">
         <img src="../../assets/star.png" alt="" />
       </div>
-      <div class="w-1/2 flex flex-col items-center justify-center">
+      <div class="md:w-1/2 flex flex-col items-center justify-center">
         <img
           src="../../assets/starmap.svg"
           alt=""
@@ -14,7 +14,7 @@
           PERSONALIZED STAR MAP OF YOUR SPECIAL MOMENTS
         </p>
         <button
-          class="px-4 py-2 mt-8 font-semibold text-white text-sm bg-[#f37125] rounded hover:bg-orange-600 uppercase"
+          class="px-4 py-2 mt-8 font-semibold text-white text-sm bg-primary-orange rounded hover:bg-orange-600 uppercase"
         >
           Create Now
         </button>

@@ -2,6 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "./components/HomePage/Home.vue";
 import Section2 from "./components/HomePage/Section2.vue";
 import StarMap from "./components/HomePage/StarMap.vue";
+import Review from "./components/HomePage/Review.vue";
+import Frame from "./components/Frame/Frame.vue";
+import Order from "./components/Frame/Order.vue";
 
 const routes = [
   {
@@ -10,7 +13,16 @@ const routes = [
       default: Home,
       section2: Section2,
       starMap: StarMap,
+      review: Review,
     },
+  },
+  {
+    path: "/frame",
+    component: Frame,
+  },
+  {
+    path: "/order",
+    component: Order,
   },
 ];
 

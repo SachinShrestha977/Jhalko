@@ -13,6 +13,7 @@ onMounted(() => {
     <router-view></router-view>
     <router-view name="section2"></router-view>
     <router-view name="starMap"></router-view>
+    <router-view name="review"></router-view>
     <Footer></Footer>
   </div>
 </template>

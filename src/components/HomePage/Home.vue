@@ -1,13 +1,12 @@
 <template>
   <div class="bg-sky-50">
-    <!-- Top Header -->
-    <div class="flex justify-between">
+    <div class="flex justify-between bg-sky-50">
       <img
         src="../../assets/logo.png"
         alt=""
-        class="bg-white mx-40 h-36 w-32 shadow-2xl"
+        class="bg-white md:mx-40 mx-4 h-36 w-32 shadow-2xl"
       />
-      <div class="flex flex-col">
+      <div class="hidden md:flex flex-col">
         <div class="flex space-x-1 items-center pt-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -66,10 +65,9 @@
         </div>
       </div>
     </div>
-
     <!-- Banner Part -->
-    <div class="flex w-full space-x-2 pl-40 mt-8">
-      <div class="w-1/2 px-4 py-4">
+    <div class="flex md:flex-row flex-col w-full md:space-x-2 md:pl-40 pt-8">
+      <div class="md:w-1/2 px-4 py-4">
         <p class="font-bold text-3xl">
           QUALITY PHOTOS PRINTED, FRAMED & DELIVERED.
         </p>
@@ -80,7 +78,7 @@
         <div class="mt-8">
           <button
             @click="openFileDialog"
-            class="px-4 py-2 font-semibold text-white text-sm bg-[#f37125] rounded hover:bg-orange-600 uppercase"
+            class="px-4 py-2 font-semibold text-white text-sm bg-primary-orange rounded hover:bg-orange-600 uppercase"
           >
             Upload Photos
           </button>
@@ -95,7 +93,10 @@
           />
         </div>
       </div>
-      <div class="relative w-1/2 hover:cursor-pointer" @click="openImageDialog">
+      <div
+        class="relative md:w-1/2 hover:cursor-pointer"
+        @click="openImageDialog"
+      >
         <input
           type="file"
           ref="imageInput"
@@ -109,7 +110,7 @@
           class="w-[600px]"
         />
         <div
-          class="absolute top-0 -left-10 w-full h-full flex flex-col items-center justify-center"
+          class="absolute top-0 md:-left-10 w-full h-full flex flex-col items-center justify-center"
         >
           <p class="text-center text-black text-xl">
             Drag and drop your photographs here
@@ -125,12 +126,16 @@
 <script>
 import { toast } from "vue3-toastify";
 import "vue3-toastify/dist/index.css";
+import { mapActions } from "vuex";
+
 export default {
   name: "Home",
   data() {
     return {};
   },
   methods: {
+    ...mapActions(["updateImageFile"]),
+
     openFileDialog() {
       this.$refs.fileInput.click();
     },
@@ -142,22 +147,33 @@ export default {
       if (file) {
         const fileExtension = file.name.split(".").pop().toLowerCase();
         if (fileExtension === "jpeg" || fileExtension === "jpg") {
-          // Handle the selected file (e.g., upload it or display a preview)
-          console.log("Selected file:", file);
+          this.updateImageFile(file); // Use Vuex action
+          this.$router.push("/frame");
         } else {
           toast.error("Please upload a file in JPEG or JPG format.");
         }
       }
     },
+    // handleImageChange(event) {
+    //   const image = event.target.files[0];
+    //   if (image) {
+    //     const fileExtension = image.name.split(".").pop().toLowerCase();
+    //     if (fileExtension === "jpeg" || fileExtension === "jpg") {
+    //       this.$router.push("/frame");
+    //     } else {
+    //       toast.error("Please upload a file in JPEG or JPG format.");
+    //     }
+    //   }
+    // },
     handleImageChange(event) {
       const image = event.target.files[0];
       if (image) {
         const fileExtension = image.name.split(".").pop().toLowerCase();
         if (fileExtension === "jpeg" || fileExtension === "jpg") {
-          // Handle the selected file (e.g., upload it or display a preview)
-          console.log("Selected file:", file);
+          this.updateImageFile(image); // Use Vuex action
+          this.$router.push("/frame");
         } else {
-          toast.error("Please upload a file in JPEG or JPG format.");
+          this.$toast.error("Please upload a file in JPEG or JPG format.");
         }
       }
     },

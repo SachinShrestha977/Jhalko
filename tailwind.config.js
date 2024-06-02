@@ -15,6 +15,9 @@ export default {
       nunito: ["Nunito", "sans-serif"],
     },
     extend: {
+      colors: {
+        "primary-orange": "#f37125",
+      },
       keyframes: {
         slide: {
           from: { transform: "translateX(-100%)" }, // Start off-screen to the left

@@ -1,7 +1,9 @@
 <template>
   <div class="bg-gray-950 py-2">
-    <div class="mx-44 flex items-center justify-between">
-      <div class="flex space-x-4">
+    <div
+      class="md:mx-44 flex md:flex-row flex-col items-center justify-between"
+    >
+      <div class="flex space-x-4 md:pb-0 pb-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
@@ -73,7 +75,7 @@
           </g>
         </svg>
       </div>
-      <div class="flex text-white text-sm space-x-8">
+      <div class="flex text-white text-sm space-x-8 md:pb-0 pb-2">
         <p class="hover:cursor-pointer">FAQ's</p>
         <p>|</p>
         <p class="hover:cursor-pointer">TOS & Privacy Policy</p>
@@ -85,7 +87,7 @@
         <p class="text-white text-sm">© 2024 - jhalko.com</p>
       </div>
     </div>
-    <p class="pt-5 text-white text-xs mx-44 text-center">
+    <p class="pt-5 text-white text-xs md:mx-44 text-center">
       Disclaimer: The image(s) displayed above is for visual representation.
       Final product may vary due to various printing, framing & lighting
       constraints. Data provided by Artificial Intelligence(AI) is used to
