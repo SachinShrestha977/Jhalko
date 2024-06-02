@@ -1,6 +1,7 @@
 <script setup>
 import { initFlowbite } from "flowbite";
 import { onMounted } from "vue";
+import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 
 onMounted(() => {
@@ -10,6 +11,7 @@ onMounted(() => {
 
 <template>
   <div id="app">
+    <Header></Header>
     <router-view></router-view>
     <router-view name="section2"></router-view>
     <router-view name="starMap"></router-view>

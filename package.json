@@ -1,5 +1,5 @@
 {
-  "name": "taxproject",
+  "name": "jhalko",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,7 +16,8 @@
     "vue-sweetalert2": "^5.0.5",
     "vue3-tabs-chrome": "^0.3.3",
     "vue3-toastify": "^0.2.1",
-    "vuex": "^4.0.2"
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.19",

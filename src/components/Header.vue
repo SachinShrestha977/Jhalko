@@ -4,6 +4,7 @@
       src="../assets/logo.png"
       alt=""
       class="bg-white md:mx-40 mx-4 h-36 w-32 shadow-2xl"
+      @click="navigateToHome"
     />
     <div class="hidden md:flex flex-col">
       <div class="flex space-x-1 items-center pt-1">
@@ -66,4 +67,12 @@
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  methods: {
+    navigateToHome() {
+      this.$router.push("/");
+    },
+  },
+};
+</script>
